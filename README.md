@@ -1,5 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+[Demo live](https://simple-react-starterkit.herokuapp.com/)
 This is a very basic react starter kit if you are a beginner and wants to develop your stand alone project
 
 ## Available Scripts
