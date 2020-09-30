@@ -1,5 +1,4 @@
 import React, { useContext } from 'react';
-import CSSModules from 'react-css-modules';
 import { Context } from '../../AppContext';
 import s from './Home.module.css';
 
@@ -20,4 +19,4 @@ const Home = () => {
   );
 };
 
-export default CSSModules(Home, s, { allowMultiple: true });
+export default Home;
