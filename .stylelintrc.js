@@ -50,4 +50,4 @@ module.exports = {
     // https://github.com/hudochenkov/stylelint-order/blob/master/rules/properties-order/README.md
     'order/properties-order': [],
   },
-};
+}

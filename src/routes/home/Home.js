@@ -1,10 +1,10 @@
-import React, { useContext } from 'react';
-import { Context } from '../../AppContext';
-import s from './Home.module.css';
+import React, { useContext } from 'react'
+import { Context } from '../../AppContext'
+import s from './Home.module.css'
 
 const Home = () => {
-  const { store } = useContext(Context);
-  console.log(store); //eslint-disable-line
+  const { store } = useContext(Context)
+  console.log(store) //eslint-disable-line
   return (
     <div className={s.App}>
       <header className={s.header}>
@@ -16,7 +16,6 @@ const Home = () => {
         </p>
       </header>
     </div>
-  );
-};
-
-export default Home;
+  )
+}
+export default Home

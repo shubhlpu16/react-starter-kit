@@ -1,6 +1,6 @@
-import React from 'react';
-import { Switch, Route } from 'react-router-dom';
-import Home from './routes/home/Home';
+import React from 'react'
+import { Switch, Route } from 'react-router-dom'
+import Home from './routes/home/Home'
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
         <Home />
       </Route>
     </Switch>
-  );
+  )
 }
 
-export default App;
+export default App

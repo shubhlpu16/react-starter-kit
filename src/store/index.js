@@ -1,6 +1,6 @@
-import { createStore, applyMiddleware } from 'redux';
-import thunk from 'redux-thunk';
-import rootReducer from '../reducers';
+import { createStore, applyMiddleware } from 'redux'
+import thunk from 'redux-thunk'
+import rootReducer from '../reducers'
 
 // for localStorage createStore with loadState in localStorage
 // const store = createStore(rootReducer,loadState(),applyMiddleware(thunk));
@@ -10,9 +10,9 @@ import rootReducer from '../reducers';
 //     storeData: store.getState().storeData,
 //   });
 // });
-const store = createStore(rootReducer, applyMiddleware(thunk));
+const store = createStore(rootReducer, applyMiddleware(thunk))
 store.subscribe(() => {
-  console.log(store); //eslint-disable-line
-});
+  console.log(store) //eslint-disable-line
+})
 
-export default store;
+export default store
