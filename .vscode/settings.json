@@ -1,6 +1,8 @@
 {
     "editor.formatOnSave": true,
-    "editor.formatOnType": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
     "prettier.semi": false,
     "prettier.singleQuote": true,
     "prettier.configPath": ".prettierrc",
