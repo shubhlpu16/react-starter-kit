@@ -2,8 +2,11 @@
   "name": "ui-notes",
   "version": "0.1.0",
   "private": true,
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "dependencies": {
+    "@material-ui/core": "^4.11.4",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
@@ -17,9 +20,9 @@
     "postcss-preset-env": "^6.7.0",
     "postcss-url": "^8.0.0",
     "prop-types": "^15.7.2",
-    "react": "^16.13.1",
+    "react": "16.8.0",
     "react-css-modules": "^4.7.11",
-    "react-dom": "^16.13.1",
+    "react-dom": "16.8.0",
     "react-redux": "^7.2.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
@@ -30,10 +33,10 @@
     "url-loader": "3.0.0"
   },
   "husky": {
-  "hooks": {
-    "pre-commit": "lint-staged"
-  }
-},
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "lint-staged": {
     "*.{js,jsx}": [
       "eslint --no-ignore --fix",
